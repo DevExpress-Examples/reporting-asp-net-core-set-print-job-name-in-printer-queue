@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <DefaultItemExcludes>Reports\**</DefaultItemExcludes>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Reports\**" />
+    <Content Remove="Reports\**" />
+    <EmbeddedResource Remove="Reports\**" />
+    <None Remove="Reports\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="node_modules\**" />
+    <Content Remove="node_modules\**" />
+    <EmbeddedResource Remove="node_modules\**" />
+    <None Remove="node_modules\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="PredefinedReports\*.repx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="PredefinedReports\TestReport.repx" />
+    <None Remove="SampleReport.repx" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="SampleReport.repx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="PredefinedReports\TestReport.cs">
+      <DependentUpon>TestReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="PredefinedReports\TestReport.Designer.cs">
+      <DependentUpon>TestReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="SampleReport.cs">
+      <DependentUpon>SampleReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="SampleReport.Designer.cs">
+      <DependentUpon>SampleReport.repx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Session" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.0.0" />
+    <PackageReference Include="System.Data.SQLite" Version="1.0.109.2" />
+    <PackageReference Include="DevExpress.AspNetCore.Reporting" Version="19.2.5" />
+  </ItemGroup>
+</Project>
