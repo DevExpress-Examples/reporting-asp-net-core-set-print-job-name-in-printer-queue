@@ -3,7 +3,7 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T848595)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-## Reporting for ASP.NET Core - Change Print Job Name in Printer Queue
+# Reporting for ASP.NET Core - Change Print Job Name in Printer Queue
 
 In desktop applications, the name of the report in the printer queue is taken from the value of the [XtraReport.DisplayName](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.XtraReport.DisplayName) property. You can override this in the `XtraReport.PrintingSystem.StartPrint` event handler using the [PrintDocumentEventArgs.PrintDocument](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraPrinting.PrintDocumentEventArgs.PrintDocument) property.
 
@@ -28,6 +28,4 @@ To change the name of the report print job, do the following:
 - [ASP.NET Core Reporting](https://docs.devexpress.com/XtraReports/119717/create-end-user-reporting-applications/web-reporting/aspnet-core-reporting)
 - [Register Services in the Document Viewer](https://docs.devexpress.com/XtraReports/400271/create-end-user-reporting-applications/web-reporting/asp-net-core-reporting/document-viewer/api-and-customization/register-services-in-the-document-viewer)
 - [Print and Export Without a Preview in ASP.NET Core Application](https://docs.devexpress.com/XtraReports/402950/web-reporting/asp-net-core-reporting/print-and-export-without-a-preview)
-
-
 
