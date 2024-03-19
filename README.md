@@ -18,13 +18,13 @@ To change the name of the report print job, do the following:
 ![](Images/printtoprinterbyname.gif)
 ## Files to Review
 
-- [HomeController.cs](CS\dxExampleWebDocViewerChangeJobPrintName\Controllers\HomeController.cs)
-- [ExportedDocumentService.cs](CS\dxExampleWebDocViewerChangeJobPrintName\Services\ExportedDocumentService.cs)
-- [Startup.cs](CS\dxExampleWebDocViewerChangeJobPrintName\Startup.cs)
+- [HomeController.cs](CS/dxExampleWebDocViewerChangeJobPrintName/Controllers/HomeController.cs)
+- [ExportedDocumentService.cs](CS/dxExampleWebDocViewerChangeJobPrintName/Services/ExportedDocumentService.cs)
+- [Startup.cs](CS/dxExampleWebDocViewerChangeJobPrintName/Startup.cs)
 
 ## Documentation
 
 - [ASP.NET Core Reporting](https://docs.devexpress.com/XtraReports/119717/create-end-user-reporting-applications/web-reporting/aspnet-core-reporting)
 - [Register Services in the Document Viewer](https://docs.devexpress.com/XtraReports/400271/create-end-user-reporting-applications/web-reporting/asp-net-core-reporting/document-viewer/api-and-customization/register-services-in-the-document-viewer)
-- [Print and Export Without a Preview in ASP.NET Core Application](https://docs.devexpress.com/XtraReports/402950/web-reporting/asp-net-core-reporting/print-and-export-without-a-preview)
+- [Print and Export Without a Preview in ASP.NET Core Application](https://docs.devexpress.com/XtraReports/404502/web-reporting/common-features/printing)
 
