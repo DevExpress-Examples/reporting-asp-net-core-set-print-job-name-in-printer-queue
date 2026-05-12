@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "dxExampleWebDocViewerChangeJobPrintName": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:1980;http://localhost:1981"
+    }
+  }
+}
